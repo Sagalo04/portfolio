@@ -1,0 +1,17 @@
+body{
+    background-color: #303030;
+}
+.App{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.listfolio{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 90%;
+    width: 80%;
+}

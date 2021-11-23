@@ -1,0 +1,10 @@
+$primarycolor: #0094FF;
+$secondarycolor: white;
+$namecolor: #59B9FF;
+
+@mixin mflex($direction: row, $justify: center, $align: center){
+    display: flex;
+    flex-direction: $direction;
+    justify-content: $justify;
+    align-items: $align;
+}

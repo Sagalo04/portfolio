@@ -1,0 +1,8 @@
+.o_acordion{
+    //background-color: transparent !important;
+    box-shadow: none !important;
+}
+
+.o_acordion::before{
+    background-color: rgba(0,0,0,0);
+}

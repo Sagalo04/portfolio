@@ -1,8 +1,16 @@
-.o_acordion{
-    //background-color: transparent !important;
-    box-shadow: none !important;
-}
+// .o_acordion{
+//     //background-color: transparent !important;
+//     box-shadow: none !important;
+// }
 
-.o_acordion::before{
-    background-color: rgba(0,0,0,0);
+// .o_acordion::before{
+//     background-color: rgba(0,0,0,0);
+// }
+
+.Title{
+
+    color: white;
+    font-size: 64px;
+    font-weight: 200;
+    text-align: start;
 }

@@ -11,7 +11,7 @@ import linkedinicon from '../images/icons/linkedin.png'
 
 //SECTION Images
 import SantiImage from '../images/banners/s.png'
-import icons from './icons'
+// import icons from './icons'
 //!SECTION
 const iconss = [githubicon,gmailicon,instagramicon,linkedinicon]
 

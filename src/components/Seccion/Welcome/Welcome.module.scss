@@ -1,47 +1,60 @@
 @use '../../../base';
-.o_welcome{
+
+.o_welcome {
     @include base.mflex($direction: column);
-    .o_socialcontainer{
+    padding-bottom: 14rem;
+
+
+    .o_socialcontainer {
         @include base.mflex;
         width: 100%;
         padding: 3rem 0 10rem 0;
-        .o_socialcomponent{
+
+        .o_socialcomponent {
             width: 30%;
             margin-right: 1.5rem;
         }
-        .o_dummysocial{
+
+        .o_dummysocial {
             width: 38%;
             margin-left: 1.5rem;
         }
     }
 }
-.o_container{
+
+.o_container {
     @include base.mflex;
     width: 100%;
     color: base.$secondarycolor;
     font-weight: lighter;
-    .o_info{
+
+    .o_info {
         width: 38%;
         margin-left: 1.5rem;
         //align-self: stretch;
     }
-    h1{
+
+    h1 {
         font-weight: 400;
 
         margin: 0;
-        span{
+
+        span {
             color: base.$namecolor;
             font-weight: 500;
         }
     }
-    .o_profession{
+
+    .o_profession {
         margin: 0;
     }
-    img{
+
+    img {
         width: 30%;
         margin-right: 1.5rem;
     }
 }
-.o_btns{
+
+.o_btns {
     @include base.mflex($justify: space-between);
 }

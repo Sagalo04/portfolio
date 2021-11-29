@@ -11,9 +11,10 @@ import linkedinicon from '../images/icons/linkedin.png'
 
 //SECTION Images
 import SantiImage from '../images/banners/s.png'
+import SantiImage2 from '../images/banners/s2.png'
 // import icons from './icons'
 //!SECTION
-const iconss = [githubicon,gmailicon,instagramicon,linkedinicon]
+const iconss = [githubicon, gmailicon, instagramicon, linkedinicon]
 
 //!SECTION
 export default iconss;
@@ -30,6 +31,7 @@ export const LINKEDINICON = linkedinicon;
 
 //SECTION Images
 export const SANTIIMAGE = SantiImage
+export const SANTIIMAGE2 = SantiImage2;
 //!SECTION
 
 //!SECTION

@@ -1,19 +1,24 @@
 import styled from 'styled-components'
-import { animated } from 'react-spring'
+import {
+  animated
+} from 'react-spring'
 
 
-const Frame = styled('div')`
+const Frame = styled('div')
+`
   position: relative;
   padding: 4px 0px 0px 0px;
   text-overflow: ellipsis;
   white-space: nowrap;
-  overflow-x: hidden;
+  // overflow-x: hidden;
   vertical-align: middle;
   color: white;
   fill: white;
+  margin-bottom: 0.8rem;
 `
 
-const Content = styled(animated.div)`
+const Content = styled(animated.div)
+`
   will-change: transform, opacity, height;
   margin-left: 1.8rem;
   padding: 0px 0px 0px 14px;
@@ -22,20 +27,26 @@ const Content = styled(animated.div)`
 `
 
 const toggle = {
-  width: '1em',
-  height: '1em',
+  width: '1.5em',
+  height: '1.5em',
   marginLeft: 10,
   cursor: 'pointer',
   verticalAlign: 'middle'
 }
 
 const ico = {
-  width: '2em',
-  height: '2em',
+  width: '3em',
+  height: '3em',
   margin: 0,
   marginRight: 10,
   cursor: 'pointer',
-  verticalAlign: 'middle'
+  verticalAlign: 'middle',
+  HorizontalAlign: 'end'
 }
 
-export { Frame, Content, toggle, ico }
+export {
+  Frame,
+  Content,
+  toggle,
+  ico
+}

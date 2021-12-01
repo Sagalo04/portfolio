@@ -4,6 +4,7 @@ import { useMeasure, usePrevious } from "./helpers.jsx";
 import { Frame, Content, toggle, ico } from "./styles";
 import { Icon } from "@iconify/react";
 import { SANTIIMAGE2 } from "../../../constants/images";
+import {ConsoleIcon,BracketsIcon,FrameworkIcon,GameIcon,DatabaseIcon,DesignIcon} from "../../../constants/icons"
 import * as Icons from "./icons";
 import Styles from "./Skills.module.scss";
 
@@ -68,7 +69,7 @@ function Skills(props) {
         <div className={Styles.tree}>
           <Tree
             name="Lenguajes de programación"
-            iconi="grommet-icons:console"
+            iconi={ConsoleIcon}
             style={{ fontSize: "1.4rem" }}
           >
             <Tree name="Python" />
@@ -102,7 +103,7 @@ function Skills(props) {
           </Tree>
           <Tree
             name="Desarrollo Web"
-            iconi="ph:brackets-curly-bold"
+            iconi={BracketsIcon}
             style={{ fontSize: "1.4rem" }}
           >
             <Tree name="HTML 5" />
@@ -117,7 +118,7 @@ function Skills(props) {
           </Tree>
           <Tree
             name="Frameworks / Bibliotecas"
-            iconi="icon-park-outline:folder-code-one"
+            iconi={FrameworkIcon}
             style={{ fontSize: "1.4rem" }}
           >
             <Tree name="React" />
@@ -132,7 +133,7 @@ function Skills(props) {
           </Tree>
           <Tree
             name="Desarrollo de Videojuegos"
-            iconi="carbon:game-console"
+            iconi={GameIcon}
             style={{ fontSize: "1.4rem" }}
           >
             <Tree name="Unity" />
@@ -140,7 +141,7 @@ function Skills(props) {
           </Tree>
           <Tree
             name="Bases de Datos"
-            iconi="bx:bx-data"
+            iconi={DatabaseIcon}
             style={{ fontSize: "1.4rem" }}
           >
             <Tree name="Relacionales" />
@@ -154,7 +155,7 @@ function Skills(props) {
           </Tree>
           <Tree
             name="Diseño Web"
-            iconi="fluent:draw-image-20-regular"
+            iconi={DesignIcon}
             style={{ fontSize: "1.4rem" }}
           >
             <Tree name="Adobe XD" />

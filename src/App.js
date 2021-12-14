@@ -1,4 +1,5 @@
 import './App.css';
+import Portfolio from './components/Seccion/Portfolio/Portfolio';
 import Resume from './components/Seccion/Resume/Resume';
 // import ImageFolio from './components/ImageFolio/ImageFolio';
 import Skills from './components/Seccion/Skills/Skills';
@@ -17,6 +18,7 @@ function App() {
       <Welcome />
       <Skills />
       <Resume />
+      <Portfolio />
     </div>
   );
 }

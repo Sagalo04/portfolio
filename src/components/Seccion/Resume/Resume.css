@@ -15,9 +15,6 @@
     0 3px 0 4px rgba(0, 0, 0, 0.05);
 }
 
-.vertical-timeline--two-columns .vertical-timeline-element-content {
-  /* width: fit-content; */
-}
 
 .vertical-timeline-element-content h3 {
   font-weight: 600;
@@ -32,4 +29,14 @@
 .vertical-timeline-element-content .o-date {
   font-weight: 300;
   margin: 0;
+}
+
+.o_resume{
+}
+
+.o_resume h1{
+  font-weight: 200;
+  font-size: 75px;
+  text-align: center;
+  color: white;
 }

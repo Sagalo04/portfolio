@@ -11,9 +11,9 @@ import "./Resume.css";
 
 function Resume(props) {
   return (
-    <div style={{ width: "65%" }}>
-      <h1>RESUMEN</h1>
-      <VerticalTimeline className="vertical-timeline-custom-line">
+    <div className="o_resume" >
+      <h1>Resumen Profesional</h1>
+      <VerticalTimeline style={{ width: "65%" }} className="vertical-timeline-custom-line">
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
           contentStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}

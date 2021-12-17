@@ -16,8 +16,7 @@ function Resume(props) {
       <VerticalTimeline style={{ width: "65%" }} className="vertical-timeline-custom-line">
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
-          contentStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
-          contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
+
           // date="2011 - present"
           iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
           icon={<SchoolIcon />}

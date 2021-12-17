@@ -2,6 +2,7 @@ import Styles from "./Card.module.scss";
 import React, { useState } from "react";
 import { useSpring, animated } from "react-spring";
 import Button from "../../Button/Button";
+import {arrow,Github} from '../../../constants/icons'
 
 
 function Card({ imagen }) {
@@ -28,8 +29,8 @@ function Card({ imagen }) {
         volutpat.
       </p>
       <div className={Styles.btnn}>
-        <Button title="Demo" />
-        <Button title="Code" />
+        <Button title="Demo" icon={arrow} />
+        <Button title="Code" icon={Github}/>
       </div>
     </animated.div>
   );

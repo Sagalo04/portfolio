@@ -8,9 +8,14 @@ export const FrameworkIcon = "icon-park-outline:folder-code-one"
 export const GameIcon = "carbon:game-console"
 export const DatabaseIcon = "bx:bx-data"
 export const DesignIcon = "fluent:draw-image-20-regular"
+export const arrow = "eva:arrow-ios-forward-fill"
+export const Github = "akar-icons:github-fill"
 
 
 
-const icons = [DownloadIcon,BracketCloseIcon,SlashIcon,BracketOpenIcon,ConsoleIcon,BracketsIcon,FrameworkIcon,GameIcon,DatabaseIcon,DesignIcon]
+
+
+
+const icons = [DownloadIcon,BracketCloseIcon,SlashIcon,BracketOpenIcon,ConsoleIcon,BracketsIcon,FrameworkIcon,GameIcon,DatabaseIcon,DesignIcon,arrow,Github]
 
 export default icons

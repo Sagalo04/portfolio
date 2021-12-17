@@ -2,6 +2,8 @@
 import { v4 as uuidv4 } from "uuid";
 import Card from "./Card";
 import Carousel from "./Carousel";
+import Styles from "./Portfolio.module.scss"
+
 
 function Portfolio() {
   let cards = [
@@ -37,12 +39,20 @@ function Portfolio() {
     }
   ];
   return (
-    <div style={{width:"100%"}}className="">
+    <div style={{ width: "100%" }} className={Styles.portfolio}>
+      <div className={Styles.sectiontitle}>
+        <div className={Styles.title_container}>
+          <h1 className={Styles.title}>Portfolio</h1>
+        </div>
+        <div className={Styles.o_dummy}></div>
+      </div>
+
       <Carousel
         cards={cards}
         height="500px"
-        width="80%"
+        width="50%"
         margin="0 auto"
+        marginTop="3rem"
         offset={2}
         showArrows={false}
       />

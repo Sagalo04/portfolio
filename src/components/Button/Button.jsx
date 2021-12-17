@@ -2,14 +2,14 @@ import React from 'react';
 import Styles from './Button.module.scss'
 import { Icon } from '@iconify/react';
 
-function Button({title, icon}) {
+function Button({title, icon, refr="#",targ}) {
     return (
-        <button className={Styles.o_btn}>
-            {title}
+        <a href={refr} className={Styles.o_btn} target={targ}>
             {
                 icon ? <Icon className={Styles.o_icon} icon={icon} color="white" /> : <></>
             }
-        </button>
+            {title}
+        </a>
     );
 }
 

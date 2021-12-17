@@ -31,6 +31,9 @@
   margin: 0;
 }
 
+.o_resume{
+  padding-bottom: 8rem;
+}
 
 .o_resume h1{
   font-weight: 200;

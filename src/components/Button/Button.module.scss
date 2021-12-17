@@ -4,24 +4,32 @@
     background-color: base.$primarycolor;
     color: base.$secondarycolor;
     border-radius: 10px;
-    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: 400;
+    // padding: 10px 20px;
 
     @include base.mflex;
 
-    min-width: 8rem;
+    min-height: 44px;
+    min-width: 45%;
+    width: 45%;
 
     font-size: 16px;
     font-family: 'Roboto';
     border: none;
 
     .o_icon{
-        margin-left: 1rem;
+        margin-right: 0.5rem;
         width: 1.5rem;
         height: 1.5rem;
     }
+    transition: ease all 0.5s;
 }
 
 .o_btn:hover{
+    transition: ease all 0.5s;
+
     background-color: base.$primarycolor;
+    opacity: 0.5;
     cursor: pointer;
 }

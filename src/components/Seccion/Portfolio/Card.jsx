@@ -2,10 +2,10 @@ import Styles from "./Card.module.scss";
 import React, { useState } from "react";
 import { useSpring, animated } from "react-spring";
 import Button from "../../Button/Button";
-import {arrow,Github} from '../../../constants/icons'
+import { arrow, Github } from '../../../constants/icons'
 
 
-function Card({ imagen }) {
+function Card({ imagen, title, descrip, link1="#",link2="#" }) {
   const [show, setShown] = useState(false);
 
   const props3 = useSpring({
@@ -22,15 +22,13 @@ function Card({ imagen }) {
       onMouseLeave={() => setShown(false)}
     >
       <img src={imagen} alt="" />
-      <h2>Title</h2>
+      <h2>{title}</h2>
       <p>
-        Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
-        nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat
-        volutpat.
+        {descrip}
       </p>
       <div className={Styles.btnn}>
-        <Button title="Demo" icon={arrow} />
-        <Button title="Code" icon={Github}/>
+        <Button title="Demo" icon={arrow} refr={link1}/>
+        <Button title="Code" icon={Github} refr={link2}/>
       </div>
     </animated.div>
   );

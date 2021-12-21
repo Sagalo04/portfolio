@@ -61,7 +61,7 @@ function Skills(props) {
     <div className={Styles.skills}>
       <div className={Styles.sectiontitle}>
         <div className={Styles.title_container}>
-          <h1 className={Styles.Title}>SKILLS</h1>
+          <h1 className={Styles.Title}>Habilidades</h1>
         </div>
         <div className={Styles.o_dummy}></div>
       </div>
@@ -143,7 +143,6 @@ function Skills(props) {
           >
             <Tree name="Adobe XD" />
             <Tree name="Figma" />
-            <Tree name={<span>🙀 something something</span>} />
           </Tree>
         </div>
         <img src={SANTIIMAGE2} alt="" />

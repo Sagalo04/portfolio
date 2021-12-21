@@ -76,27 +76,10 @@ function Skills(props) {
             <Tree name="Java" />
             <Tree name="Javascript" />
             <Tree name="C#" />
-            <Tree name="Php" style={{ color: "#37ceff" }} />
-            <Tree name="TypeScript" style={{ color: "#37ceff" }} />
-            <Tree name="Matlab" style={{ color: "#37ceff" }} />
+            <Tree name="Php"  />
+            <Tree name="TypeScript"  />
+            <Tree name="Matlab"/>
             <Tree name="C++">
-              <div
-                style={{
-                  position: "relative",
-                  width: "100%",
-                  height: 200,
-                  padding: 10,
-                }}
-              >
-                <div
-                  style={{
-                    width: "100%",
-                    height: "100%",
-                    background: "black",
-                    borderRadius: 5,
-                  }}
-                />
-              </div>
             </Tree>
             <Tree name="SQL" />
             <Tree name="Dart" />

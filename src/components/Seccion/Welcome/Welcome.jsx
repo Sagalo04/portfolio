@@ -4,7 +4,9 @@ import SocialLinks from './SocialLinks/SocialLinks';
 import Styles from './Welcome.module.scss'
 import { SANTIIMAGE } from '../../../constants/images'
 import { DownloadIcon } from '../../../constants/icons'
-import cv from "../../../images/CV.pdf"
+import cv from "../../../images/Hoja de Vida Santiago G.pdf"
+// import cv from "../../../images/CV.pdf"
+
 
 
 function Welcome(props) {

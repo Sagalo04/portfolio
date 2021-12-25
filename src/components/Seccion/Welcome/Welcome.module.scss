@@ -59,3 +59,58 @@
 .o_btns {
     @include base.mflex($justify: space-between);
 }
+
+@media (max-width: 426px) { 
+    .o_welcome {
+    .o_socialcontainer {
+        @include base.mflex;
+        width: 100%;
+        padding: 3rem 0 5rem 0;
+
+        .o_socialcomponent {
+            width: 50%;
+            margin-right: 0rem;
+        }
+
+        .o_dummysocial {
+            width: 0%;
+            margin-left: 0rem;
+        }
+    }
+
+    .o_container {
+        @include base.mflex($direction: column);
+        width: 100%;
+        color: base.$secondarycolor;
+        font-weight: lighter;
+    
+        .o_info {
+            width: 80%;
+            margin-left: 1.5rem;
+            text-align: justify;
+            //align-self: stretch;
+        }
+    
+        h1 {
+            font-weight: 400;
+    
+            margin: 0;
+    
+            span {
+                color: base.$namecolor;
+                font-weight: 500;
+            }
+        }
+    
+        .o_profession {
+            margin: 0;
+            font-weight: 300;
+        }
+    
+        img {
+            width: 50%;
+            margin-right: 0rem;
+            margin-bottom: 2rem;
+        }
+    }}
+ }

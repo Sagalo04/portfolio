@@ -30,6 +30,12 @@
       align-items: center;
     }
   }
+
+  @media (max-width: 426px) { 
+    .card {
+      width: 14rem;
+    }
+  }
   
   
   

@@ -1,6 +1,8 @@
 import Carousel from "react-spring-3d-carousel";
 import { useState, useEffect } from "react";
 import { config } from "react-spring";
+import Styles from "./Portfolio.module.scss"
+
 
 export default function Carroussel(props) {
   const table = props.cards.map((element, index) => {
@@ -20,6 +22,7 @@ export default function Carroussel(props) {
   return (
     <div
       style={{ width: props.width, height: props.height, margin: props.margin, marginTop: props.marginTop }}
+      className={Styles.Carousel}
     >
       <Carousel
         slides={cards}

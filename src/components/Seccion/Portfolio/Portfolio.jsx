@@ -90,7 +90,7 @@ function Portfolio() {
   ];
 
   return (
-    <div style={{ width: "100%" }} className={Styles.portfolio}>
+    <div  className={Styles.portfolio}>
       <div className={Styles.sectiontitle}>
         <div className={Styles.title_container}>
           <h1 className={Styles.title}>Portfolio</h1>

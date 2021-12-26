@@ -62,11 +62,12 @@
 
 @media (max-width: 426px) { 
     .o_welcome {
+        padding-bottom: 8rem;
     .o_socialcontainer {
         @include base.mflex;
         justify-content: center;
         width: 100%;
-        padding: 3rem 0 5rem 0;
+        padding: 2rem 0 2rem 0;
 
         .o_socialcomponent {
             width: 50%;
@@ -94,7 +95,7 @@
     
         h1 {
             font-weight: 400;
-    
+    text-align: center;
             margin: 0;
     
             span {
@@ -104,7 +105,8 @@
         }
     
         .o_profession {
-            margin: 0;
+            text-align: center;
+            margin-top: 0.5rem;
             font-weight: 300;
         }
     
@@ -112,6 +114,10 @@
             width: 50%;
             margin-right: 0rem;
             margin-bottom: 2rem;
+        }
+
+        .o_btns {
+           margin-top: 2rem;
         }
     }}
  }

@@ -32,4 +32,36 @@
         }
     
     }
+    @media (max-width: 426px) { 
+
+            .sectiontitle {
+                margin-right: 0rem;
+            
+                .title_container {
+                    width: auto;
+                    margin-right: 0rem;
+            
+                    .title {
+                        color: base.$secondarycolor;
+                        font-size: 55px;
+                        font-weight: 200;
+                        text-align: center;
+                        width: max-content;
+                        background-color: #303030;
+                        border-radius: 11px;
+                        padding: 0.1rem 0.8rem;
+                        margin-top: -3rem;
+                    }
+            
+                }
+            
+                .o_dummy {
+                    width: 0%;
+                    margin-left: 0rem;
+                }
+            
+            }
+
+    
+}
 }

@@ -41,3 +41,15 @@
   text-align: center;
   color: white;
 }
+
+@media (max-width: 426px) { 
+  .o_resume{
+    padding: 0rem 2rem 7rem 2rem;
+  }
+  .o_resume h1{
+    font-weight: 200;
+    font-size: 55px;
+    text-align: center;
+    color: white;
+  }
+}

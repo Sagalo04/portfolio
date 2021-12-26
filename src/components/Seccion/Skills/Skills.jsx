@@ -31,6 +31,7 @@ function Skills(props) {
             <span
               //   onClick={() => setOpen(!isOpen)}
               style={{ verticalAlign: "middle", marging: 0, ...style }}
+               className={Styles.fontt}
             >
               {name}
             </span>

@@ -64,6 +64,7 @@
     .o_welcome {
     .o_socialcontainer {
         @include base.mflex;
+        justify-content: center;
         width: 100%;
         padding: 3rem 0 5rem 0;
 
@@ -86,7 +87,7 @@
     
         .o_info {
             width: 80%;
-            margin-left: 1.5rem;
+            margin-left: 0rem;
             text-align: justify;
             //align-self: stretch;
         }

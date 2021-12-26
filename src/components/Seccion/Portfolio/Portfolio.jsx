@@ -93,7 +93,7 @@ function Portfolio() {
     <div  className={Styles.portfolio}>
       <div className={Styles.sectiontitle}>
         <div className={Styles.title_container}>
-          <h1 className={Styles.title}>Portfolio</h1>
+          <h1 className={Styles.title}>Portafolio</h1>
         </div>
         <div className={Styles.o_dummy}></div>
       </div>

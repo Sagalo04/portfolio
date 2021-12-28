@@ -36,7 +36,7 @@
 
     h1 {
         font-weight: 400;
-
+        line-height: 35px;
         margin: 0;
 
         span {
@@ -47,6 +47,7 @@
 
     .o_profession {
         margin: 0;
+        margin-top: .5rem;
         font-weight: 300;
     }
 
@@ -57,6 +58,7 @@
 }
 
 .o_btns {
+    margin-top: 2rem;
     @include base.mflex($justify: space-between);
 }
 
@@ -85,6 +87,7 @@
         width: 100%;
         color: base.$secondarycolor;
         font-weight: lighter;
+        font-size: 16px;
     
         .o_info {
             width: 80%;

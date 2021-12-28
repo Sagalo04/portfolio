@@ -71,7 +71,7 @@ function Portfolio() {
         <Card 
         imagen={IMAGES_6} 
         title={"INKED TATTOO SHOP"} 
-        descrip={"Página Comercial en Wordpress, para la empresa Inked Tattoo"}
+        descrip={"Página Comercial en Wordpress, para la empresa Inked Tattoo, donde se pueden ver los servicios que ofrecen, así como enviar una cotización de una idea"}
         link1="https://inkedtattooshopcol.com"
         link2="https://inkedtattooshopcol.com"/>
       )

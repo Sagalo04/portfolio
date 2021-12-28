@@ -13,7 +13,7 @@ function Portfolio() {
         <Card 
         imagen={IMAGES_1} 
         title={"LINO"} 
-        descrip={"La mecánica cuántica es la rama de la física que estudia la naturaleza a escalas espaciales pequeñas, los sistemas atómicos y subatómicos y sus interacciones con la radiación electromagnética"}
+        descrip={"Lino es una app que conecta medicos con pacientes con el fin de concretar una cita ya sea de manera virtual, a travez de un chat, o presencial acordando una cita previa, utilizando la API de maps de google"}
         link1="https://lino-app.vercel.app/home"
         link2="https://github.com/Sagalo04/lino-app"
         />
@@ -25,7 +25,7 @@ function Portfolio() {
         <Card 
         imagen={IMAGES_2} 
         title={"K-BOOM DOCENTES"} 
-        descrip={"La mecánica cuántica es la rama de la física que estudia la naturaleza a escalas espaciales pequeñas, los sistemas atómicos y subatómicos y sus interacciones con la radiación electromagnética"}
+        descrip={"Es una plataforma de docentes para revisar el progreso de los estudiantes en el videojuego K=Boom, utiliza un inicio de sesión con Google para acceder a esta plataforma"}
         link1="https://kboom-teachers.vercel.app/signin"
         link2="https://github.com/Sagalo04/kboom-teachers"/>
       )
@@ -37,7 +37,7 @@ function Portfolio() {
         <Card 
         imagen={IMAGES_3} 
         title={"RICK AND MORTY"} 
-        descrip={"La mecánica cuántica es la rama de la física que estudia la naturaleza a escalas espaciales pequeñas, los sistemas atómicos y subatómicos y sus interacciones con la radiación electromagnética"}        
+        descrip={"React-App para consultar los personajes de la serie Rick y Morty, tanto los capitulos en los que sales como sus respectiva información"}        
         link1="https://rick-and-morty-react-app.web.app"
         link2="https://github.com/Sagalo04/rick_and_morty_reactapp"/>
       )
@@ -48,7 +48,7 @@ function Portfolio() {
       content: (
         <Card imagen={IMAGES_4} 
         title={"Dashboard SCSS"} 
-        descrip={"La mecánica cuántica es la rama de la física que estudia la naturaleza a escalas espaciales pequeñas, los sistemas atómicos y subatómicos y sus interacciones con la radiación electromagnética"}
+        descrip={"Este Dashboard fue creado para imitar por medio de React y SCSS a través de componentes una página, a partir de un diseño inicial copiado al mas mínimo detalle."}
         link1="https://trabajo-scss.vercel.app"
         link2="https://github.com/Sagalo04/TrabajoSCSS"/>
       )
@@ -59,8 +59,8 @@ function Portfolio() {
       content: (
         <Card 
         imagen={IMAGES_5} 
-        title={"K-BOOM"} 
-        descrip={"La mecánica cuántica es la rama de la física que estudia la naturaleza a escalas espaciales pequeñas, los sistemas atómicos y subatómicos y sus interacciones con la radiación electromagnética"}
+        title={"K=BOOM"} 
+        descrip={"Plataforma web para el videojuego educativo K=Boom donde se visualizan los datos recolectados por el estudiante"}
         link1="https://kboomfront-omega.vercel.app/santiago.garcna@uao.edu.co"
         link2="https://github.com/tinanano19/kboomfront"/>
       )
@@ -71,7 +71,7 @@ function Portfolio() {
         <Card 
         imagen={IMAGES_6} 
         title={"INKED TATTOO SHOP"} 
-        descrip={"La mecánica cuántica es la rama de la física que estudia la naturaleza a escalas espaciales pequeñas, los sistemas atómicos y subatómicos y sus interacciones con la radiación electromagnética"}
+        descrip={"Página Comercial en Wordpress, para la empresa Inked Tattoo"}
         link1="https://inkedtattooshopcol.com"
         link2="https://inkedtattooshopcol.com"/>
       )
@@ -82,7 +82,7 @@ function Portfolio() {
         <Card 
         imagen={IMAGES_7} 
         title={"AWESOME HEROES"} 
-        descrip={"La mecánica cuántica es la rama de la física que estudia la naturaleza a escalas espaciales pequeñas, los sistemas atómicos y subatómicos y sus interacciones con la radiación electromagnética"}
+        descrip={"App para votación de superheroes desarrollada en Angular y con la ayuda de MOCKAPI para la conservación de los votos"}
         link1="https://awesome-heroes.vercel.app"
         link2="https://github.com/Sagalo04/AwesomeHeroes"/>
       )

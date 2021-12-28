@@ -2,13 +2,13 @@
 
 .o_welcome {
     @include base.mflex($direction: column);
-    padding-bottom: 14rem;
+    padding-bottom: 10rem;
 
 
     .o_socialcontainer {
         @include base.mflex;
         width: 100%;
-        padding: 3rem 0 10rem 0;
+        padding: 3rem 0 8rem 0;
 
         .o_socialcomponent {
             width: 30%;

@@ -4,16 +4,12 @@ import SocialLinks from './SocialLinks/SocialLinks';
 import Styles from './Welcome.module.scss'
 import { SANTIIMAGE, BANNERFORM, SANTIBANNER } from '../../../constants/images'
 import { DownloadIcon } from '../../../constants/icons'
-import cv from "../../../images/Hoja de Vida Santiago G.pdf"
+import cv from "../../../images/CV SANTIAGO GARCIA.pdf"
 import Box from '@mui/material/Box';
 import TextField from '@mui/material/TextField';
 import { Modal } from "@mui/material";
 import emailjs from 'emailjs-com';
 import swal from 'sweetalert';
-
-// import cv from "../../../images/CV.pdf"
-
-
 
 function Welcome(props) {
     function sendEmail(e) {

@@ -135,13 +135,14 @@
     background-color: aliceblue;
     outline: none;
     padding-bottom: 1rem;
+    width: 30%;
     .o_banner {
-        width: 30rem;
+        width: 100%;
         border-radius: 10px;
     }
     .o_santibanner {
-        width: 13rem;
-        margin-top: -9rem;
+        width: 50%;
+        margin-top: -35%;
     }
     .o_form {
         @include base.mflex($direction: column);

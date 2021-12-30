@@ -1,9 +1,8 @@
-@use '../../../base';
+@use "../../../base";
 
 .o_welcome {
     @include base.mflex($direction: column);
     padding-bottom: 10rem;
-
 
     .o_socialcontainer {
         @include base.mflex;
@@ -47,7 +46,7 @@
 
     .o_profession {
         margin: 0;
-        margin-top: .5rem;
+        margin-top: 0.5rem;
         font-weight: 300;
     }
 
@@ -62,65 +61,90 @@
     @include base.mflex($justify: space-between);
 }
 
-@media (max-width: 426px) { 
+@media (max-width: 426px) {
     .o_welcome {
         padding-bottom: 8rem;
-    .o_socialcontainer {
-        @include base.mflex;
-        justify-content: center;
-        width: 100%;
-        padding: 2rem 0 2rem 0;
+        .o_socialcontainer {
+            @include base.mflex;
+            justify-content: center;
+            width: 100%;
+            padding: 2rem 0 2rem 0;
 
-        .o_socialcomponent {
-            width: 50%;
-            margin-right: 0rem;
-        }
+            .o_socialcomponent {
+                width: 50%;
+                margin-right: 0rem;
+            }
 
-        .o_dummysocial {
-            width: 0%;
-            margin-left: 0rem;
-        }
-    }
-
-    .o_container {
-        @include base.mflex($direction: column);
-        width: 100%;
-        color: base.$secondarycolor;
-        font-weight: lighter;
-        font-size: 16px;
-    
-        .o_info {
-            width: 80%;
-            margin-left: 0rem;
-            text-align: justify;
-            //align-self: stretch;
-        }
-    
-        h1 {
-            font-weight: 400;
-    text-align: center;
-            margin: 0;
-    
-            span {
-                color: base.$namecolor;
-                font-weight: 500;
+            .o_dummysocial {
+                width: 0%;
+                margin-left: 0rem;
             }
         }
-    
-        .o_profession {
-            text-align: center;
-            margin-top: 0.5rem;
-            font-weight: 300;
-        }
-    
-        img {
-            width: 50%;
-            margin-right: 0rem;
-            margin-bottom: 2rem;
-        }
 
-        .o_btns {
-           margin-top: 2rem;
+        .o_container {
+            @include base.mflex($direction: column);
+            width: 100%;
+            color: base.$secondarycolor;
+            font-weight: lighter;
+            font-size: 16px;
+
+            .o_info {
+                width: 80%;
+                margin-left: 0rem;
+                text-align: justify;
+                //align-self: stretch;
+            }
+
+            h1 {
+                font-weight: 400;
+                text-align: center;
+                margin: 0;
+
+                span {
+                    color: base.$namecolor;
+                    font-weight: 500;
+                }
+            }
+
+            .o_profession {
+                text-align: center;
+                margin-top: 0.5rem;
+                font-weight: 300;
+            }
+
+            img {
+                width: 50%;
+                margin-right: 0rem;
+                margin-bottom: 2rem;
+            }
+
+            .o_btns {
+                margin-top: 2rem;
+            }
         }
-    }}
- }
+    }
+}
+
+.o_modal {
+    @include base.mflex($direction: column);
+    border-radius: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: aliceblue;
+    outline: none;
+    padding-bottom: 1rem;
+    .o_banner {
+        width: 30rem;
+        border-radius: 10px;
+    }
+    .o_santibanner {
+        width: 13rem;
+        margin-top: -9rem;
+    }
+    .o_form {
+        @include base.mflex($direction: column);
+        width: 85%;
+    }
+}

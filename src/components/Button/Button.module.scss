@@ -7,7 +7,6 @@
     text-decoration: none;
     font-weight: 400;
     // padding: 10px 20px;
-
     @include base.mflex;
 
     min-height: 44px;
@@ -24,11 +23,17 @@
         height: 1.5rem;
     }
     transition: ease all 0.5s;
+
+}
+.disable{
+    cursor: not-allowed;
+    pointer-events: none;
+    background: rgb(131 202 253 / 40%);
+    color: gray;
 }
 
 .o_btn:hover{
     transition: ease all 0.5s;
-
     background-color: base.$primarycolor;
     opacity: 0.5;
     cursor: pointer;

@@ -5,7 +5,7 @@ import Button from "../../Button/Button";
 import { arrow, Github } from '../../../constants/icons'
 
 
-function Card({ imagen, title, descrip, link1="#",link2="#" }) {
+function Card({ imagen, title, descrip, link1="#",link2="#", dis1, dis2}) {
   const [show, setShown] = useState(false);
 
   const props3 = useSpring({
@@ -27,8 +27,8 @@ function Card({ imagen, title, descrip, link1="#",link2="#" }) {
         {descrip}
       </p>
       <div className={Styles.btnn}>
-        <Button title="Demo" icon={arrow} refr={link1}/>
-        <Button title="Code" icon={Github} refr={link2}/>
+        <Button title="Demo" icon={arrow} refr={link1} dis={dis1}/>
+        <Button title="Code" icon={Github} refr={link2} dis={dis2}/>
       </div>
     </animated.div>
   );

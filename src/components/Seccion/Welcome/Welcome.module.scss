@@ -149,3 +149,15 @@
         width: 85%;
     }
 }
+
+@media (max-width: 769px) {
+    .o_modal{
+        width: 50%;
+    }
+}
+
+@media (max-width: 426px) {
+    .o_modal{
+        width: 80%;
+    }
+}

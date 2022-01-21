@@ -87,6 +87,17 @@ function Portfolio() {
         link2="https://github.com/Sagalo04/AwesomeHeroes"/>
       )
     },
+    {
+      key: uuidv4(),
+      content: (
+        <Card 
+        imagen={IMAGES_7} 
+        title={"Bisanti Atuo"} 
+        descrip={"Onepage Comercial en Wordpress, para la empresa Bisanti, donde se pueden ver los servicios que ofrecen, así como enviar una ponerse en contacto con la empresa"}
+        link1="https://bisantiauto.com"
+        link2="https://github.com/Sagalo04/AwesomeHeroes" dis2={false}/>
+      )
+    },
   ];
 
   return (

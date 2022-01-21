@@ -1,6 +1,10 @@
 // import "./App.css";
 import { v4 as uuidv4 } from "uuid";
+<<<<<<< HEAD
 import { IMAGES_1, IMAGES_2, IMAGES_3, IMAGES_4, IMAGES_5, IMAGES_6,IMAGES_7,IMAGES_8,IMAGES_9,IMAGES_10,IMAGES_11 } from "../../../constants/images";
+=======
+import { IMAGES_1, IMAGES_2, IMAGES_3, IMAGES_4, IMAGES_5, IMAGES_6,IMAGES_7,IMAGES_8,IMAGES_9 } from "../../../constants/images";
+>>>>>>> 2689d08de8d23921cd11aa31bb2a42b05d1fb0c2
 import prayer from "../../../images/PrayerSlayerInstall.exe"
 import Card from "./Card";
 import Carousel from "./Carousel";

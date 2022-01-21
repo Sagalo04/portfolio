@@ -60,11 +60,8 @@ export const IMAGES_6 = images_6;
 export const IMAGES_7 = images_7;
 export const IMAGES_8 = images_8;
 export const IMAGES_9 = images_9;
-<<<<<<< HEAD
 export const IMAGES_10 = images_10;
 export const IMAGES_11 = images_11;
-=======
->>>>>>> 2689d08de8d23921cd11aa31bb2a42b05d1fb0c2
 export const BANNERFORM = BannerForm;
 export const SANTIBANNER = SantiBanner;
 

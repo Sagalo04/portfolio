@@ -1,6 +1,7 @@
 // import "./App.css";
 import { v4 as uuidv4 } from "uuid";
-import { IMAGES_1, IMAGES_2, IMAGES_3, IMAGES_4, IMAGES_5, IMAGES_6,IMAGES_7 } from "../../../constants/images";
+import { IMAGES_1, IMAGES_2, IMAGES_3, IMAGES_4, IMAGES_5, IMAGES_6,IMAGES_7,IMAGES_8,IMAGES_9 } from "../../../constants/images";
+import prayer from "../../../images/PrayerSlayerInstall.exe"
 import Card from "./Card";
 import Carousel from "./Carousel";
 import Styles from "./Portfolio.module.scss"
@@ -92,10 +93,21 @@ function Portfolio() {
       content: (
         <Card 
         imagen={IMAGES_8} 
-        title={"Bisanti Atuo"} 
+        title={"Bisanti Auto"} 
         descrip={"Onepage Comercial en Wordpress, para la empresa Bisanti, donde se pueden ver los servicios que ofrecen, así como enviar una ponerse en contacto con la empresa"}
         link1="https://bisantiauto.com"
         link2="https://github.com/Sagalo04/AwesomeHeroes" dis2={false}/>
+      )
+    },
+    {
+      key: uuidv4(),
+      content: (
+        <Card 
+        imagen={IMAGES_9} 
+        title={"Prayer Slayer"} 
+        descrip={"Prototipo de Videojuego en Unity en PixelARt para proyecto de videojuegos"}
+        link1={prayer}
+        link2="https://sites.google.com/uao.edu.co/prayerslayerproject/página-principal" />
       )
     },
   ];

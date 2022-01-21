@@ -91,7 +91,7 @@ function Portfolio() {
       key: uuidv4(),
       content: (
         <Card 
-        imagen={IMAGES_7} 
+        imagen={IMAGES_8} 
         title={"Bisanti Atuo"} 
         descrip={"Onepage Comercial en Wordpress, para la empresa Bisanti, donde se pueden ver los servicios que ofrecen, así como enviar una ponerse en contacto con la empresa"}
         link1="https://bisantiauto.com"

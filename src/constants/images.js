@@ -20,6 +20,9 @@ import images_5 from "../images/imagecard/5.jpg"
 import images_6 from "../images/imagecard/6.jpg"
 import images_7 from "../images/imagecard/7.jpg"
 import images_8 from "../images/imagecard/8.png"
+import images_9 from "../images/imagecard/9.jpg"
+import images_10 from "../images/imagecard/10.jpg"
+import images_11 from "../images/imagecard/11.jpg"
 
 import BannerForm from '../images/banners/image 3.png'
 import SantiBanner from '../images/banners/s 5.png'
@@ -56,6 +59,9 @@ export const IMAGES_5 = images_5;
 export const IMAGES_6 = images_6;
 export const IMAGES_7 = images_7;
 export const IMAGES_8 = images_8;
+export const IMAGES_9 = images_9;
+export const IMAGES_10 = images_10;
+export const IMAGES_11 = images_11;
 export const BANNERFORM = BannerForm;
 export const SANTIBANNER = SantiBanner;
 

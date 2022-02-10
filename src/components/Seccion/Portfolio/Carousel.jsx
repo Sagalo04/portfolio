@@ -28,7 +28,7 @@ export default function Carroussel(props) {
         slides={cards}
         goToSlide={goToSlide}
         offsetRadius={offsetRadius}
-        showNavigation={true}
+        showNavigation={showArrows}
         animationConfig={config.gentle}
       />
     </div>

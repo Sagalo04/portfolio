@@ -150,7 +150,7 @@ function Portfolio() {
         margin="0 auto"
         marginTop="3rem"
         offset={2}
-        showArrows={false}
+        showArrows={true}
       />
     </div>
   );

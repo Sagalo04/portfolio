@@ -11,7 +11,7 @@ export default function Carroussel(props) {
 
   const [offsetRadius, setOffsetRadius] = useState(2);
   const [showArrows, setShowArrows] = useState(true);
-  const [goToSlide, setGoToSlide] = useState(null);
+  const [goToSlide, setGoToSlide] = useState(0);
   const [cards] = useState(table);
 
   useEffect(() => {
@@ -28,7 +28,7 @@ export default function Carroussel(props) {
         slides={cards}
         goToSlide={goToSlide}
         offsetRadius={offsetRadius}
-        showNavigation={showArrows}
+        showNavigation={true}
         animationConfig={config.gentle}
       />
     </div>

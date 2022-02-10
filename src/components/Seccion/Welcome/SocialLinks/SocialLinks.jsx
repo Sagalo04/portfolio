@@ -33,7 +33,7 @@ function SocialLinks() {
         <img src={GITHUBICON} alt="github logo" />
       </a>
 
-      <a href="https://github.com/Sagalo04" target="_blank" rel="noreferrer">
+      <a href="https://www.linkedin.com/in/santiago-garcía-lópez-bb971022a/" target="_blank" rel="noreferrer">
         <img src={LINKEDINICON} alt="linkedin logo" />
       </a>
 

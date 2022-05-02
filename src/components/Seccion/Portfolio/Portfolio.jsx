@@ -190,7 +190,7 @@ function Portfolio() {
             <>
               React app con Redux, para consultar los personajes y frases de la
               serie Breaking Bad, y calificar cada una de sus frases dejando un
-              comentario. Creado en colaboración con <a href="https://github.com/AngieV1198">Angie Varela</a>
+              comentario. Creado en colaboración con <a href="https://github.com/AngieV1198" target="_blank" rel="noreferrer" >Angie Varela</a>
             </>
           }
           link1="https://breaking-bad-react-eight.vercel.app"

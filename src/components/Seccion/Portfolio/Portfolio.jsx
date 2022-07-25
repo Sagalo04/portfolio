@@ -13,6 +13,7 @@ import {
   IMAGES_10,
   IMAGES_11,
   IMAGES_12,
+  IMAGES_13,
 } from "../../../constants/images";
 import prayer from "../../../images/PrayerSlayerInstall.exe";
 import Card from "./Card";
@@ -190,11 +191,32 @@ function Portfolio() {
             <>
               React app con Redux, para consultar los personajes y frases de la
               serie Breaking Bad, y calificar cada una de sus frases dejando un
-              comentario. Creado en colaboración con <a href="https://github.com/AngieV1198" target="_blank" rel="noreferrer" >Angie Varela</a>
+              comentario. Creado en colaboración con{" "}
+              <a
+                href="https://github.com/AngieV1198"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Angie Varela
+              </a>
             </>
           }
           link1="https://breaking-bad-react-eight.vercel.app"
           link2="https://github.com/Sagalo04/breaking_bad_react"
+        />
+      ),
+    },
+    {
+      key: uuidv4(),
+      content: (
+        <Card
+          imagen={IMAGES_13}
+          title={"Heroes App"}
+          descrip={
+            "React App donde podemos ver a todos los superheroes de marvel y calificarlos a cada uno cuantas veces queramos, para así crear  un ranking. Desarrollador con react, redux y laravel"
+          }
+          link1="https://heroes-isobar-afkbbmbnf-santiago-garcia09-livecom.vercel.app"
+          link2="https://github.com/Sagalo04/heroes-isobar"
         />
       ),
     },
